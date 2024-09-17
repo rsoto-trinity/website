@@ -1,0 +1,118 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#home {
+    background: #007BFF;
+    color: white;
+    padding: 4em 0;
+}
+
+
+#portfolio {
+    background: #007BFF;
+    color: white;
+    padding: 4em 0;
+}
+
+#contact {
+    background: #007BFF;
+    color: white;
+    padding: 4em 0;
+}
+
+#portfolio .portfolio-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#portfolio .portfolio-items div {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+.responsive-img {
+    max-width: 20%;
+    height: auto;
+    margin-top: 20px; /* Adds space between the text and the image */
+    justify-content: center;
+
+}
+/* About Section Styling */
+#about {
+    max-width: 800px; /* Limits the width of the text block */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 20px; /* Adds padding inside the section */
+    line-height: 1.6; /* Increases line height for better readability */
+}
+
+#about h2 {
+    font-size: 2em; /* Adjusts the font size of the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #333; /* Sets a color for the heading */
+}
+
+#about p {
+    margin-bottom: 20px; /* Adds space below each paragraph */
+    font-size: 1.1em; /* Increases font size slightly for better readability */
+    color: #666; /* Sets a color for the text */
+}
+
+#about a {
+    color: #1a73e8; /* Sets the link color */
+    text-decoration: none; /* Removes the underline from the link */
+}
+
+#about a:hover {
+    text-decoration: underline; /* Adds an underline on hover for better interaction feedback */
+}
