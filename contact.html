@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan Soto | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Soto | Contact</title>
+
+  <!-- NES.css -->
+  <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+
+  <!-- NES Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/portfolio.html">Portfolio</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-   <!-- Contact Section -->
-   <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        
-        <button type="submit">Send</button>
-    </form>
-</section>
+  <!-- Header Section -->
+  <header class="nes-container is-dark with-title">
+    <p class="title">Navigation</p>
+    <nav>
+      <ul>
+        <li><a class="nes-text is-primary" href="/home.html">Home</a></li>
+        <li><a class="nes-text is-success" href="/about.html">About</a></li>
+        <li><a class="nes-text is-warning" href="/portfolio.html">Portfolio</a></li>
+        <li><a class="nes-text is-error" href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<footer>
-    <p>&copy; 2024 Ryan Soto. All rights reserved.</p>
-</footer>
+  <!-- Contact Section -->
+  <section id="contact" class="nes-container with-title is-rounded">
+    <p class="title">Contact Me</p>
+    <form>
+      <div class="nes-field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="nes-input" name="name" />
+      </div>
+
+      <div class="nes-field">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="nes-input" name="email" />
+      </div>
+
+      <div class="nes-field">
+        <label for="message">Message:</label>
+        <textarea id="message" class="nes-textarea" name="message"></textarea>
+      </div>
+
+      <button type="submit" class="nes-btn is-primary">Send</button>
+    </form>
+  </section>
+
+  <footer class="nes-container is-dark">
+    <p class="nes-text is-disabled">&copy; 2024 Ryan Soto. All rights reserved.</p>
+  </footer>
+</body>
+</html>

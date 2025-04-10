@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan Soto | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/portfolio.html">Portfolio</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Soto | Home</title>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to My Personal Website</h1>
-        <p>I'm Ryan Soto, a Graduating Senior of Trinity University.</p>
-   
-    <img src="Ryan Soto-402.jpg" alt="Ryan Soto"class="responsive-img">
- </section>
-    <footer>
-        <p>&copy; 2024 Ryan Soto. All rights reserved.</p>
-    </footer>
+  <!-- NES.css -->
+  <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+
+  <!-- NES Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="nes-container is-dark with-title">
+    <p class="title">Navigation</p>
+    <nav>
+      <ul>
+        <li><a class="nes-text is-primary" href="/home.html">Home</a></li>
+        <li><a class="nes-text is-success" href="/about.html">About</a></li>
+        <li><a class="nes-text is-warning" href="/portfolio.html">Portfolio</a></li>
+        <li><a class="nes-text is-error" href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="nes-container with-title is-centered is-rounded">
+    <p class="title">Welcome</p>
+    <h1 class="nes-text is-primary">Welcome to My Personal Website</h1>
+    <p class="nes-text">I'm Ryan Soto, a Computer Science graduate from Trinity University.</p>
+    <img src="Ryan Soto-402.jpg" alt="Ryan Soto" class="responsive-img nes-avatar is-rounded" />
+  </section>
+
+  <footer class="nes-container is-dark">
+    <p class="nes-text is-disabled">&copy; 2024 Ryan Soto. All rights reserved.</p>
+  </footer>
 </body>
 </html>
