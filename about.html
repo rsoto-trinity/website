@@ -12,6 +12,8 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css" />
+
+
 </head>
 <body>
   <!-- Header Section -->
@@ -49,9 +51,21 @@
       <a href="mailto:sotor07262001@gmail.com">sotor07262001@gmail.com</a>.
     </p>
   </section>
+  <!-- Toggle Button for Music -->
+  <section style="text-align: center; margin-top: 2em;">
+    <button id="music-toggle" class="nes-btn is-primary">Pause Music</button>
+  </section>
 
+  <!-- Audio Player (Persistent) -->
+  <audio id="background-music" autoplay loop>
+    <source src="Super Mario 64 - Inside Peachs Castle Music.mp4" type="audio/mpeg" />
+  </audio>
+
+  <!-- JavaScript for Music Control -->
   <footer class="nes-container is-dark">
     <p class="nes-text is-disabled">&copy; 2024 Ryan Soto. All rights reserved.</p>
   </footer>
+  <script src="index.js"></script>
+
 </body>
 </html>
